@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework 5.8</title>
+  <link rel="stylesheet" href="./styleshtml.css">
+  <link rel="stylesheet" href="./1120.css">
+  <link rel="stylesheet" href="./768.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <div class=" wrapper">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__container">
+
+        <label for="burger-toggle">
+          <span class="header__menu"> <img src="./img/burger.svg" alt="menu-burger"></span>
+        </label>
+
+        <!-- for 768 -->
+        <div class="header__greystick header__greystick-768"></div>
+        <!-- ### -->
+        <div class="header__logo"><img src="./img/Group.svg" alt="logo"></div>
+        <!-- for 768 -->
+        <div class="header__container-for-768">
+          <button class="header__phone"><img src="./img/call.svg" alt="phone"></button>
+          <button class="header__comments"><img src="./img/chat.svg" alt="chat"></button>
+          <button class="header__profile"><img src="./img/profile.svg" alt=""></button>
+        </div>
+        <!-- ### -->
+        <div class="header__greystick header__greystick-320"></div>
+        <button class="header__setting"><img src="./img/repair.svg" alt="setting"></button>
+        <button class="header__search"><img src="./img/checkstatus.svg" alt=""></button>
+      </div>
+
+    </header>
+
+    <input id="burger-toggle" type="checkbox">
+
+    <!-- aside -->
+    <aside>
+
+      <div class="overlay-mobile-menu"></div>
+
+      <div class="wrapper__mobile-menu">
+        <!-- Header mobile menu -->
+        <div class="header__mobile-menu">
+
+          <div class="header__container-mobile-menu">
+            <label for="burger-toggle">
+              <span class="header__exit-mobile-menu"><img src="./img/cross.svg" alt="exit of menu"></span>
+            </label>
+            <div class="header__logo-mobile-menu"><img src="./img/Group.svg" alt="logo"></div>
+            <button class="header__search-mobile-menu"><img src="./img/checkstatus.svg" alt="icon search"></button>
+          </div>
+
+        </div>
+        <!-- Main mobile menu -->
+        <div class="main__mobile-menu">
+          <div class="main__container-mobile-menu">
+            <ul class="main__list-menu-mobile-menu">
+              <li><a href="">Ремонт техники</a></li>
+              <li><a href="">Услуги и сервисы</a></li>
+              <li><a href="">Корпоративным клиентам</a></li>
+              <li><a href="">Продавцам техники</a></li>
+              <li><a href="">Партнерам</a></li>
+              <li><a href="">Производителям</a></li>
+              <li><a href="">Наши сервисные центры</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Footer mobile menu -->
+        <div class="footer__mobile-menu">
+          <div class="footer__container-mobile-menu">
+            <div class="footer__buttons-mobile-menu">
+              <button><a href=""><img src="./img/call.svg" alt="phone"></a></button>
+              <button><a href=""><img src="./img/chat.svg" alt="chat"></a></button>
+              <button><a href=""><img src="./img/profile.svg" alt="profile"></a></button>
+            </div>
+            <div><a class="footer__email-mobile-menu" href="mail@cps.com">mail@cps.com</a></div>
+            <div><span class="footer__number-mobile-menu">8 800 890 8900</span></div>
+
+            <div>
+              <ul class="footer__list-lang-mobile-menu">
+                <li>RU</li>
+                <li>EN</li>
+                <li>CH</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <section class="main__container">
+        <div class="title">
+
+          <div class="title__services">
+            <div class="aqua-stick"></div>
+            <h1>Услуги и сервисы</h1>
+            <!-- this is for 1120 -->
+            <div class="container__setting-and-search-for-1120">
+              <button class="header__setting setting-and-search-1120">
+                <span class="label-button-for-1120">Оставить заявку</span>
+                <img src="./img/repair.svg" alt="icon setting">
+              </button>
+              <button class="header__search setting-and-search-1120">
+                <span class="label-button-for-1120">Статус ремонта</span>
+                <img src="./img/checkstatus.svg" alt="icon search">
+              </button>
+            </div>
+            <!-- ### -->
+          </div>
+          <ul class="title__services-list">
+            <li class="services-list__options"><a href="@">Ремонтируемые бренды</a></li>
+            <li class="services-list__options"><a href="@">Ремонтируемые устройства</a></li>
+            <li class="services-list__options"><a href="@">Дополнительные услуги</a></li>
+            <li class="services-list__options"><a href="@">Цены на услуги</a></li>
+            <li class="services-list__options"><a href="@">Специальные цены</a></li>
+            <li class="services-list__options"><a href="@">Адреса сервисных центров</a></li>
+          </ul>
+        </div>
+
+        <div class="about-company">
+          <div class="about-company__container-text">
+            <p class="about-company__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только
+              у
+              нас вы можете
+              отремонтировать свой
+              ноутбук Dell с официальной гарантией производителя.
+              <span class="about-company__text-for-768">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+              </span>
+              <span class="about-company__text-for-1120">
+                что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас
+                родным
+                и близким.
+              </span>
+            </p>
+
+            <button class="about-company__readmore">
+              <img class="about-company__readmore-icon" src="./img/arrow-read-more.svg" alt="icon arrow read more ">
+              <span class="about-company__readmore-text">Читать далее</span>
+            </button>
+          </div>
+
+          <div class="about-company__container-logo">
+            <img class="about-company__logo" src="./img/Picture CPS.svg" alt="picture of logo">
+          </div>
+        </div>
+      </section>
+
+      <!-- brands  -->
+      <section>
+
+        <div class="brand-wrapper">
+
+          <div class="title-brand__container">
+            <span class="title-brand__text">Ремонт техники различных брендов</span>
+          </div>
+
+          <input id="show-hide-button" type="checkbox">
+
+
+          <ul class="brand-container">
+
+            <li class="brand__block">
+              <img src="./img/lenovo.svg" alt="lenovo logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/samsung.svg" alt="samsung logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/iphone.svg" alt="iphone logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/viewsonic.svg" alt="viewsonic logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/bosch.svg" alt="bosch logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/hp.svg" alt="hp logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/acer.svg" alt="acer logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/sony.svg" alt="sony logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/lenovo.svg" alt="lenovo logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/samsung.svg" alt="samsung logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+            <li class="brand__block">
+              <img src="./img/iphone.svg" alt="iphone logo">
+              <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+            </li>
+
+          </ul>
+
+          <!-- this is swiper for width 360px -->
+
+          <div id="swiper-360" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/lenovo.svg" alt="lenovo logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/samsung.svg" alt="samsung logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/iphone.svg" alt="iphone logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/viewsonic.svg" alt="viewsonic logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/bosch.svg" alt="bosch logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/hp.svg" alt="hp logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/acer.svg" alt="acer logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/sony.svg" alt="sony logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/lenovo.svg" alt="lenovo logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/samsung.svg" alt="samsung logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+              <div class="swiper-slide">
+                <li class="brand__block">
+                  <img src="./img/iphone.svg" alt="iphone logo">
+                  <div><img src="./img/dropdown.svg" alt="arrow-next"></div>
+                </li>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- ###### -->
+
+          <label class="label__show-more" for="show-hide-button">
+            <button class="show-more">
+              <img class="arrow-down" src="./img/arrowDown.svg" alt="arrow down">
+              <span class="text-show">Показать все</span>
+              <span class="text-hide">Скрыть</span>
+            </button>
+          </label>
+
+        </div>
+
+      </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      FOOTER
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+    });
+  </script>
+</body>
+
+</html>

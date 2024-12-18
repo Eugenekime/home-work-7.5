@@ -1,0 +1,195 @@
+@media (min-width: 769px) {
+  button {
+    cursor: pointer;
+    background-color: rgba(248, 248, 248, 1);
+  }
+
+  .wrapper {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* aside */
+
+  .footer__container-mobile-menu {
+    margin-top: 241px;
+  }
+
+  /* Header */
+
+  .header {
+    display: none;
+  }
+
+  .container__setting-and-search-for-1120 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+    flex: 1 1 auto;
+    margin-right: 18px;
+
+  }
+
+  .setting-and-search-1120 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .label-button-for-1120 {
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .main {
+    background-color: rgba(248, 248, 248, 1)
+  }
+
+
+  .title {
+    margin-top: 42px;
+    padding-top: 0px;
+    max-width: 1120px;
+  }
+
+  .aqua-stick {
+    margin-right: 32px;
+  }
+
+  .title__services-list {
+    margin-top: 10px;
+    margin-left: 32px;
+    margin-right: 18px;
+
+  }
+
+  .about-company {
+    margin-top: 32px;
+    flex-direction: row;
+    max-width: 1120px;
+  }
+
+  .about-company__text {
+    padding-left: 32px;
+  }
+
+  .about-company__readmore {
+    margin: 24px 0 24px 24px;
+  }
+
+  .about-company__logo {
+    min-width: 531px;
+    border-radius: 10px;
+    margin-right: 18px;
+  }
+
+
+  .about-company__text-for-768 {
+    display: block;
+    margin-top: 30px;
+    text-align: left;
+
+  }
+
+  .about-company__text-for-1120 {
+    display: block;
+  }
+
+  /* brands */
+
+  .title-brand__container {
+    padding: 16px 32px 16px 32px;
+  }
+
+  .brand-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 16px;
+    padding: 24px 32px 24px 32px;
+    background-color: rgba(248, 248, 248, 1);
+    overflow: hidden;
+    max-height: 200px;
+  }
+
+
+  .show-more {
+    pointer-events: none;
+  }
+
+  .text-hide {
+    display: none;
+  }
+
+  .brand-container__show-more {
+    max-height: 100%;
+  }
+
+  .show-more {
+    display: flex;
+  }
+
+  #show-hide-button {
+    display: none;
+  }
+
+  #show-hide-button:checked~.brand-container {
+    max-height: 100%;
+  }
+
+  #show-hide-button:checked~.label__show-more>.show-more>.arrow-down {
+    transform: rotate(180deg);
+  }
+
+  #show-hide-button:checked~.label__show-more>.show-more>.text-show {
+    display: none;
+  }
+
+  #show-hide-button:checked~.label__show-more>.show-more>.text-hide {
+    display: block;
+  }
+
+  /* aside menu */
+
+
+
+  aside {
+    min-width: 320px;
+  }
+
+  aside button {
+    background-color: white;
+  }
+
+  .wrapper__mobile-menu {
+    position: static;
+    overflow: hidden;
+    box-shadow: none;
+    z-index: none;
+  }
+
+  .header__container-mobile-menu {
+    justify-content: space-between;
+    padding: 32px 24px 50px 24px;
+  }
+
+  .header__exit-mobile-menu {
+    display: none;
+  }
+
+  #swiper-360 {
+    display: none;
+  }
+}
