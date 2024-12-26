@@ -1,69 +1,13 @@
-@media (max-width: 768px) and (min-width: 361px) {
-
-  .footer__container-mobile-menu {
-    margin-top: 268px;
-  }
-
-  /* header */
-
-  .header__container {
-    gap: 16px;
-    padding: 0 32px 0 32px;
-  }
-
-  .header__container-for-768 {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1 1 auto;
-    gap: 16px;
-  }
-
-  .title {
-    padding-top: 32px;
-  }
-
-  .aqua-stick {
-    margin-right: 24px;
-  }
-
-  .title__services-list {
-    margin-top: 32px;
-    margin-left: 16px;
-  }
-
-  .about-company {
-    margin-top: 32px;
-    flex-direction: row;
-
-  }
-
-  .about-company__text {
-    padding-left: 24px;
-  }
-
-  .about-company__text-for-768 {
-    display: block;
-    margin-top: 20px;
-    text-align: left;
-    transition: 0.7;
-  }
-
-  .about-company__readmore {
-    margin: 24px 0 24px 10px;
-  }
-
-  .about-company__logo {
-    border-radius: 5px;
-  }
+@media (max-width: 768px) and (min-width: 360px) {
 
   /* for brand section */
 
-  .title-brand__container {
-    padding: 16px 24px 16px 24px;
 
+  .block-brand__title-container {
+    padding: 16px 24px 16px 24px;
   }
 
-  .brand-container {
+  .block-brand__brand-list-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -74,41 +18,45 @@
     max-height: 200px;
   }
 
-  .brand__block {
-    min-width: 224px;
+
+  .brand-list-container__list {
+    flex: 1 1 224px;
   }
 
-  .show-more {
+
+  .block-brand__button-show-or-hide {
     display: flex;
     margin-left: 24px;
     pointer-events: none;
   }
 
-  .text-hide {
+  .block-brand__button--hide {
     display: none;
   }
 
-  #show-hide-button {
+  #block-brand__button--show-hide {
     display: none;
   }
 
-  #show-hide-button:checked~.brand-container {
+  #block-brand__button--show-hide:checked~.block-brand__brand-list-container {
     max-height: 100%;
   }
 
-  #show-hide-button:checked~.label__show-more>.show-more>.arrow-down {
+  #block-brand__button--show-hide:checked~.block-brand__label-show-more>.block-brand__button-show-or-hide>.arrow-down {
     transform: rotate(180deg);
   }
 
-  #show-hide-button:checked~.label__show-more>.show-more>.text-show {
+  #block-brand__button--show-hide:checked~.block-brand__label-show-more>.block-brand__button-show-or-hide>.block-brand__button--show {
     display: none;
   }
 
-  #show-hide-button:checked~.label__show-more>.show-more>.text-hide {
+  #block-brand__button--show-hide:checked~.block-brand__label-show-more>.block-brand__button-show-or-hide>.block-brand__button--hide {
     display: block;
   }
 
   #swiper-360 {
     display: none;
   }
+
+
 }
