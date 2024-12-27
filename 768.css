@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (min-width: 360px) {
+@media (max-width: 768px) and (min-width: 455px) {
 
   /* for brand section */
 
@@ -15,12 +15,13 @@
     column-gap: 24px;
     row-gap: 16px;
     overflow: hidden;
-    max-height: 200px;
+    max-height: 180px;
   }
 
 
   .brand-list-container__list {
-    flex: 1 1 224px;
+    flex: 1;
+    min-width: 224px;
   }
 
 
